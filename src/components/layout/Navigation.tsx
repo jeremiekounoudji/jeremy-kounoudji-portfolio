@@ -90,7 +90,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection = 'home' }) => {
           <div className="hidden md:flex items-center space-x-8">
             {NAVIGATION_ITEMS.map((item, index) => (
               <motion.button
-                key={item.name}
+                key={index}
                 onClick={() => handleNavClick(item.href)}
                 className={`relative px-3 py-2 text-sm font-medium transition-all duration-300 ${
                   activeSection === item.href.slice(1)

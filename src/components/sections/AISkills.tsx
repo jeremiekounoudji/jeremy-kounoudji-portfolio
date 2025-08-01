@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Brain, Zap, MessageSquare, Code2, Sparkles, Bot } from 'lucide-react';
+import { Brain, Zap, MessageSquare, Code2, Sparkles,  } from 'lucide-react';
 
 const AISkills: React.FC = () => {
   const containerVariants = {
@@ -167,7 +167,7 @@ const AISkills: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {aiSkills.map((skill, index) => (
               <motion.div
-                key={skill.title}
+                key={index}
                 variants={itemVariants}
                 className="group"
               >

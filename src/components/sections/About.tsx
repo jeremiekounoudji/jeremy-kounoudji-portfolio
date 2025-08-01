@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Smartphone, Database, Users, Award, Coffee } from 'lucide-react';
+import { Code, Smartphone, Database, Award, Coffee } from 'lucide-react';
 
 const About: React.FC = () => {
   const containerVariants = {

@@ -64,6 +64,7 @@ const Projects: React.FC = () => {
 
   const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => (
     <motion.div
+    key={index}
       variants={cardVariants}
       initial="hidden"
       animate="visible"
