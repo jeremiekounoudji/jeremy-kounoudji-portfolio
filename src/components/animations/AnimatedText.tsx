@@ -17,7 +17,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
   speed = 50,
   delay = 0,
   cursor = true,
-  loop = false,
+  // loop = false,
   onComplete,
 }) => {
   const [displayText, setDisplayText] = useState('');

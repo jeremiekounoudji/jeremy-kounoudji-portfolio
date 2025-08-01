@@ -74,7 +74,7 @@ const StaggeredList: React.FC<StaggeredListProps> = ({
 
   return (
     <motion.div
-      ref={elementRef}
+      ref={elementRef  as React.RefObject<HTMLDivElement>}
       className={className}
       variants={containerVariants}
       initial="hidden"
