@@ -135,7 +135,7 @@ const Hero: React.FC = () => {
         </svg>
       </div>
 
-      <div className="container-custom relative z-10">
+      <div className="container-custom relative z-10 my-5">
         <motion.div
           className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center min-h-[80vh]"
           variants={containerVariants}
