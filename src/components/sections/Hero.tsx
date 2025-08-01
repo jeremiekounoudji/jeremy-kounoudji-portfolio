@@ -171,7 +171,7 @@ const Hero: React.FC = () => {
                 transition={{ delay: 0.4, duration: 0.8 }}
               >
                 Passionate about building innovative web and mobile
-                applications. With 4+ years of experience in development, I
+                applications. With 5 years of experience in development, I
                 specialize in Flutter, Next.js, and Node.js. I leverage Docker
                 for efficient deployment and stay current with emerging
                 technologies like Web3, AI, and blockchain security.

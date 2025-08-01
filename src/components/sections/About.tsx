@@ -33,7 +33,7 @@ const About: React.FC = () => {
     {
       icon: Award,
       title: 'Professional Experience',
-      description: '4+ years of experience building web and mobile applications, from simple projects to complex enterprise solutions.',
+      description: '5+ years of experience building web and mobile applications, from simple projects to complex enterprise solutions.',
     },
     {
       icon: Code,
