@@ -64,7 +64,7 @@ const ScrollReveal: React.FC<ScrollRevealProps> = ({
 
   return (
     <motion.div
-      ref={elementRef}
+      ref={elementRef as React.RefObject<HTMLDivElement>}
       className={className}
       initial={getInitialState()}
       animate={isVisible ? getAnimateState() : getInitialState()}
