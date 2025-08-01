@@ -65,27 +65,27 @@ const Hero: React.FC = () => {
     },
     {
       text: 'Next.js',
-      position: { top: '35%', right: '-15%' },
+      position: { top: '35%', right: '0%' },
       delay: 0.9,
     },
     {
       text: 'Cursor AI',
-      position: { bottom: '55%', left: '-20%' },
+      position: { bottom: '55%', left: '0%' },
       delay: 1.1,
     },
     {
       text: 'Flutter & Dart',
-      position: { top: '55%', right: '-20%' },
+      position: { top: '55%', right: '-15%' },
       delay: 1.3,
     },
     {
       text: 'Blockchain & Web3',
-      position: { top: '80%', left: '-25%' },
+      position: { top: '80%', left: '4%' },
       delay: 1.5,
     },
     {
       text: 'AI Integration',
-      position: { bottom: '20%', right: '-10%' },
+      position: { bottom: '20%', right: '10%' },
       delay: 1.7,
     },
     {
@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
     },
     {
       text: 'Supabase',
-      position: { bottom: '5%', right: '5%' },
+      position: { bottom: '5%', right: '10%' },
       delay: 2.1,
     },
     {

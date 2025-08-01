@@ -24,9 +24,9 @@ const About: React.FC = () => {
   };
 
   const stats = [
-    { icon: Code, label: 'Years Experience', value: '4+', color: 'text-blue-400' },
-    { icon: Smartphone, label: 'Projects Completed', value: '25+', color: 'text-green-400' },
-    { icon: Database, label: 'Technologies', value: '20+', color: 'text-purple-400' },
+    { icon: Code, label: 'Years Experience', value: '5+', color: 'text-blue-400' },
+    { icon: Smartphone, label: 'Projects Completed', value: '15+', color: 'text-green-400' },
+    { icon: Database, label: 'Main Technologies', value: '7+', color: 'text-purple-400' },
   ];
 
   const highlights = [
@@ -80,7 +80,7 @@ const About: React.FC = () => {
                 <div className="relative mx-auto lg:mx-0 w-80 h-80 rounded-2xl bg-gradient-to-br from-yellow-500 to-orange-600 p-1">
                   <div className="w-full h-full rounded-2xl overflow-hidden">
                     <img
-                      src="/my-images/jeremie-2.png"
+                      src="/my-images/jeremie-4.png"
                       alt="Jeremie Kounoudji - Full-Stack Developer"
                       className="w-full h-full object-cover"
                      
@@ -127,14 +127,14 @@ const About: React.FC = () => {
                 </p>
                 
                 <p>
-                  I've had the privilege of working at <span className="text-purple-400 font-semibold">Bandesoft Ltd</span>, 
+                  I had the privilege of working at <span className="text-purple-400 font-semibold">Bandesoft Ltd</span>, 
                   where I contributed to high-impact projects including large-scale voting platforms, 
                   blockchain applications, and mobile solutions that serve thousands of users.
                 </p>
                 
                 <p>
-                  My expertise spans across <span className="text-green-400 font-semibold">React</span>, 
-                  <span className="text-green-400 font-semibold"> Next.js</span>, 
+                  My expertise spans across <span className="text-green-400 font-semibold">React</span>
+                  <span className="text-green-400 font-semibold">/Next.js</span>, 
                   <span className="text-green-400 font-semibold"> TypeScript</span>, 
                   <span className="text-green-400 font-semibold"> Flutter</span>, and modern backend technologies. 
                   I'm passionate about writing clean, efficient code and delivering exceptional user experiences.
@@ -143,7 +143,7 @@ const About: React.FC = () => {
 
               {/* CTA Button */}
               <motion.button
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
+                className="bg-yellow-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => {
