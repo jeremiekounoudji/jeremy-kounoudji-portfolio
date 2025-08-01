@@ -28,7 +28,7 @@ export const ANIMATION_VARIANTS = {
     hidden: { opacity: 0 },
     visible: { 
       opacity: 1,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]}
     },
   },
   fadeInUp: {
@@ -36,7 +36,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       opacity: 1, 
       y: 0,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]}
     },
   },
   fadeInDown: {
@@ -44,7 +44,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       opacity: 1, 
       y: 0,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]}
     },
   },
   fadeInLeft: {
@@ -52,7 +52,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       opacity: 1, 
       x: 0,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94]as [number, number, number, number] }
     },
   },
   fadeInRight: {
@@ -60,7 +60,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       opacity: 1, 
       x: 0,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]}
     },
   },
 
@@ -70,7 +70,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       opacity: 1, 
       scale: 1,
-      transition: { duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94]as [number, number, number, number] }
     },
   },
   scaleInSpring: {
@@ -88,7 +88,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       x: 0, 
       opacity: 1,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]}
     },
   },
   slideInRight: {
@@ -96,7 +96,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       x: 0, 
       opacity: 1,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94]as [number, number, number, number] }
     },
   },
   slideInUp: {
@@ -104,7 +104,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       y: 0, 
       opacity: 1,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]}
     },
   },
   slideInDown: {
@@ -112,7 +112,7 @@ export const ANIMATION_VARIANTS = {
     visible: { 
       y: 0, 
       opacity: 1,
-      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94]as [number, number, number, number] }
     },
   },
 

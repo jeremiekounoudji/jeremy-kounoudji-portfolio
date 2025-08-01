@@ -1,4 +1,5 @@
-import { Variants, Transition } from 'framer-motion';
+import type { Variants,Transition } from 'framer-motion';
+
 
 // Animation duration presets
 export const DURATIONS = {
@@ -210,17 +211,16 @@ export const pageVariants: Variants = {
     },
   },
 };
-
-// Utility function to create custom transition
 export const createTransition = (
   duration: number = DURATIONS.normal,
-  ease: readonly number[] = EASINGS.smooth,
+  ease: [number, number, number, number] = [...EASINGS.smooth] as [number, number, number, number],
   delay: number = 0
 ): Transition => ({
   duration,
   ease,
   delay,
 });
+
 
 // Utility function to create spring transition
 export const createSpringTransition = (
