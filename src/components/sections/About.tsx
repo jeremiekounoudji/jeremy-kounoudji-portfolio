@@ -128,7 +128,7 @@ const About: React.FC = () => {
                 
                 <p>
                   I had the privilege of working at <span className="text-purple-400 font-semibold">Bandesoft Ltd</span>, 
-                  where I contributed to high-impact projects including large-scale voting platforms, 
+                 located in <span className="text-purple-400 font-semibold">Cameroun</span> where I contributed to high-impact projects including large-scale voting platforms, 
                   blockchain applications, and mobile solutions that serve thousands of users.
                 </p>
                 
