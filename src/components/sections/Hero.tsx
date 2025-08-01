@@ -63,14 +63,14 @@ const Hero: React.FC = () => {
       position: { top: '20%', left: '-15%' },
       delay: 0.7,
     },
-    {
-      text: 'Next.js',
-      position: { top: '35%', right: '0%' },
-      delay: 0.9,
-    },
+    // {
+    //   text: 'Next.js',
+    //   position: { top: '35%', right: '0%' },
+    //   delay: 0.9,
+    // },
     {
       text: 'Cursor AI',
-      position: { bottom: '55%', left: '0%' },
+      position: { bottom: '30%', left: '-5%' },
       delay: 1.1,
     },
     {
@@ -88,21 +88,21 @@ const Hero: React.FC = () => {
       position: { bottom: '20%', right: '10%' },
       delay: 1.7,
     },
-    {
-      text: 'Node.js',
-      position: { bottom: '35%', left: '-15%' },
-      delay: 1.9,
-    },
+    // {
+    //   text: 'Node.js',
+    //   position: { bottom: '35%', left: '-15%' },
+    //   delay: 1.9,
+    // },
     {
       text: 'Supabase',
-      position: { bottom: '5%', right: '10%' },
+      position: { bottom: '-10%', right: '20%' },
       delay: 2.1,
     },
-    {
-      text: 'Firebase',
-      position: { bottom: '0%', left: '15%' },
-      delay: 2.3,
-    },
+    // {
+    //   text: 'Firebase',
+    //   position: { bottom: '0%', left: '15%' },
+    //   delay: 2.3,
+    // },
   ];
 
   return (
